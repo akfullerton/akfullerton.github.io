@@ -1,0 +1,34 @@
+title: "Andrew Khoi Fullerton"
+description: "Andrew Khoi Fullerton is an MBA candidate working across strategy, technology, entertainment, and energy transition."
+url: "https://akfullerton.github.io"
+baseurl: ""
+lang: "en-US"
+timezone: "America/Los_Angeles"
+github_username: "akfullerton"
+linkedin_username: "andrewkfullerton"
+
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+exclude:
+  - .cache
+  - .conversation
+  - .local/conversation-workspace
+  - .npmrc
+  - .replit
+  - .replitignore
+  - attached_assets
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - replit.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      image: "/assets/favicon.svg"
