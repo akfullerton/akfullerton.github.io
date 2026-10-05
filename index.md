@@ -1,55 +1,59 @@
 ---
 layout: home
-title: "Strategy, systems, and stories that move people."
-description: "The portfolio of Andrew Khoi Fullerton, an MBA candidate working across strategy, technology, entertainment, and energy transition."
+title: "Strategy, Product, Operations"
+description: "Andrew Khoi Fullerton is a Berkeley Haas MBA candidate working across customer strategy, entertainment, technology, and product."
 permalink: /
 ---
 
 <section class="intro-block" aria-labelledby="intro-heading">
-  <p class="eyebrow">Andrew Khoi Fullerton <span aria-hidden="true">/</span> Strategy &amp; innovation</p>
-  <h1 id="intro-heading">Strategy, systems, and stories that <em>move people.</em></h1>
-  <p class="intro-copy">I work at the intersection of business strategy, technology, and culture — from making complex customer journeys clearer to building the systems behind global entertainment experiences.</p>
-  <div class="intro-actions">
-    <a class="button button-primary" href="{{ '/experience/' | relative_url }}">View experience <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="{{ '/about/' | relative_url }}">A little more about me <span aria-hidden="true">→</span></a>
-  </div>
-</section>
-
-<section class="home-signal" aria-labelledby="current-focus-heading">
-  <div class="section-heading">
-    <p class="eyebrow">Current focus</p>
-    <h2 id="current-focus-heading">Turning ambiguity into a way forward.</h2>
-  </div>
-  <div class="signal-copy">
-    <p>At Berkeley Haas, I am exploring how AI, platforms, and operating models can make businesses more useful and more human. My experience spans energy, music, live events, go-to-market strategy, and cross-functional execution.</p>
-    <a class="text-link" href="{{ '/contact/' | relative_url }}">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+  <p class="eyebrow">Andrew Khoi Fullerton <span class="meta-separator" aria-hidden="true">/</span> Strategy / Product / Operations</p>
+  <h1 class="intro-heading" id="intro-heading">
+    <span>I make complicated</span>
+    <span>businesses <span class="accent-text">easier to use</span></span>
+    <span>and easier to run.</span>
+  </h1>
+  <p class="intro-copy">Berkeley Haas MBA with experience across entertainment, technology, and customer strategy. Before business school, four years in music talent management.</p>
+  <div class="hero-links">
+    <a class="text-link" href="{{ '/experience/' | relative_url }}">See selected work <span aria-hidden="true">↘</span></a>
+    <a class="text-link" href="{{ '/about/' | relative_url }}">About Andrew <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
 <section class="selected-work" aria-labelledby="selected-work-heading">
-  <div class="section-heading section-heading-row">
-    <div>
-      <p class="eyebrow">Selected work</p>
-      <h2 id="selected-work-heading">A few places I’ve put strategy into motion.</h2>
-    </div>
-    <a class="text-link text-link-desktop" href="{{ '/experience/' | relative_url }}">All experience <span aria-hidden="true">→</span></a>
+  <div class="section-top">
+    <h2 class="eyebrow" id="selected-work-heading">Selected work</h2>
+    <p class="section-count">01—03</p>
   </div>
-  <div class="work-grid">
-    <a class="work-card" href="{{ '/experience/' | relative_url }}#pg-and-e">
-      <span class="card-index">01</span>
-      <span class="card-title">Making a complex electrification journey easier to navigate.</span>
-      <span class="card-meta">PG&amp;E <span aria-hidden="true">↗</span></span>
-    </a>
-    <a class="work-card" href="{{ '/experience/' | relative_url }}#monotone">
-      <span class="card-index">02</span>
-      <span class="card-title">Building growth strategies for artists and the teams around them.</span>
-      <span class="card-meta">Monotone, Inc. <span aria-hidden="true">↗</span></span>
-    </a>
-    <a class="work-card" href="{{ '/about/' | relative_url }}#automagent">
-      <span class="card-index">03</span>
-      <span class="card-title">Testing where generative AI can remove operational drag.</span>
-      <span class="card-meta">Automagent <span aria-hidden="true">↗</span></span>
-    </a>
-  </div>
-  <a class="text-link text-link-mobile" href="{{ '/experience/' | relative_url }}">All experience <span aria-hidden="true">→</span></a>
+  <ol class="work-index">
+    <li class="work-row">
+      <span class="work-number">01</span>
+      <div class="work-heading">
+        <h3>PG&amp;E</h3>
+        <p class="work-category">Customer + product strategy</p>
+      </div>
+      <p class="work-summary">Mapped 20+ electrification tools across 10+ teams to shape a simpler customer journey.</p>
+      <p class="work-outcome">20+ tools<br>10+ teams</p>
+      <a class="work-link" href="{{ '/experience/' | relative_url }}#pg-and-e" aria-label="Read about PG&amp;E work"><span aria-hidden="true">↗</span></a>
+    </li>
+    <li class="work-row">
+      <span class="work-number">02</span>
+      <div class="work-heading">
+        <h3>Monotone</h3>
+        <p class="work-category">Entertainment + operations</p>
+      </div>
+      <p class="work-summary">Growth strategy behind Spacey Jane’s #1 Australian album, 100M+ streams, and sold-out tours.</p>
+      <p class="work-outcome">#1 album<br>100M+ streams</p>
+      <a class="work-link" href="{{ '/experience/' | relative_url }}#monotone" aria-label="Read about Monotone work"><span aria-hidden="true">↗</span></a>
+    </li>
+    <li class="work-row">
+      <span class="work-number">03</span>
+      <div class="work-heading">
+        <h3>Automagent</h3>
+        <p class="work-category">AI + product</p>
+      </div>
+      <p class="work-summary">40+ customer conversations shaped the market, product, workflows, and pricing for an AI automation marketplace.</p>
+      <p class="work-outcome">40+ conversations</p>
+      <a class="work-link" href="{{ '/experience/' | relative_url }}#automagent" aria-label="Read about the Automagent product exploration"><span aria-hidden="true">↗</span></a>
+    </li>
+  </ol>
 </section>

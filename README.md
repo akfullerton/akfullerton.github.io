@@ -6,12 +6,11 @@ This repository is the complete static Jekyll site for [akfullerton.github.io](h
 
 The site is intentionally kept at the repository root for GitHub Pages:
 
-- `index.md`, `about.md`, `experience.md`, and `contact.md` contain page content.
+- `index.md`, `about.md`, `experience.md`, and `resume.md` contain page content.
 - `_config.yml` contains the Jekyll and site configuration.
 - `_layouts` contains the reusable page and home layouts.
 - `_includes` contains the shared document head, header, and footer.
 - `assets/css` contains the site stylesheet.
-- `assets/js` contains the minimal theme-toggle script.
 - `assets/favicon.svg` is the favicon.
 - `sitemap.xml` is generated from the site's pages with Liquid.
 
@@ -23,7 +22,7 @@ There is no backend, database, framework app, contact form service, tracker, or 
 2. Keep the YAML front matter between the opening and closing `---` markers.
 3. Keep layout and presentation changes in `_layouts`, `_includes`, or `assets/css/style.css`.
 4. Use `relative_url` for internal links so the site remains compatible with GitHub Pages base paths.
-5. Do not publish private contact information unless you intentionally change the contact page.
+5. Keep personal email, phone numbers, and résumé source files out of the public repository.
 
 ## Preview locally
 
@@ -46,12 +45,6 @@ The generated site will be placed in `_site/`.
 
 In the GitHub repository settings, choose **Pages → Deploy from a branch**, select `main`, and select `/ (root)`. GitHub Pages will build the Jekyll site automatically. The expected user-site URL is `https://akfullerton.github.io`.
 
-## Lighthouse check
+## Quality checks
 
-Start the local preview, then run Lighthouse against the four key categories:
-
-```sh
-npx lighthouse http://localhost:4000 --only-categories=performance,accessibility,best-practices,seo --view
-```
-
-Alternatively, use Chrome DevTools → Lighthouse. Test the home page and at least one interior page in both mobile and desktop modes. The target is 90 or higher in Performance, Accessibility, Best Practices, and SEO.
+Run `bundle exec jekyll build` before publishing. Check the home, Work, About, and Resume pages at 375px and 1280px widths. Chrome DevTools → Lighthouse can check Performance, Accessibility, Best Practices, and SEO without adding build tooling to the site.
