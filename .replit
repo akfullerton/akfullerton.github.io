@@ -1,1 +1,5 @@
 modules = ["ruby-3.2"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
