@@ -22,11 +22,9 @@ permalink: /
 <section class="selected-work" aria-labelledby="selected-work-heading">
   <div class="section-top">
     <h2 class="eyebrow" id="selected-work-heading">Selected work</h2>
-    <p class="section-count">01—02</p>
   </div>
-  <ol class="work-index">
+  <ul class="work-index">
     <li class="work-row">
-      <span class="work-number">01</span>
       <div class="work-heading">
         <h3>PG&amp;E</h3>
         <p class="work-category">Customer + product strategy</p>
@@ -36,7 +34,6 @@ permalink: /
       <a class="work-link" href="{{ '/experience/' | relative_url }}#pg-and-e" aria-label="Read about PG&amp;E work"><span aria-hidden="true">↗</span></a>
     </li>
     <li class="work-row">
-      <span class="work-number">02</span>
       <div class="work-heading">
         <h3>Monotone</h3>
         <p class="work-category">Entertainment + operations</p>
@@ -45,5 +42,5 @@ permalink: /
       <p class="work-outcome">#1 album<br>100M+ streams</p>
       <a class="work-link" href="{{ '/experience/' | relative_url }}#monotone" aria-label="Read about Monotone work"><span aria-hidden="true">↗</span></a>
     </li>
-  </ol>
+  </ul>
 </section>

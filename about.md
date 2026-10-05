@@ -23,12 +23,10 @@ permalink: /about/
     <h2 id="outside-heading">Outside the work</h2>
   </div>
   <ul class="interest-list" aria-label="Interests">
-    <li>Vietnamese cooking</li>
-    <li>Hosting dinners</li>
+    <li>Vietnamese cooking + hosting</li>
     <li>Live music</li>
     <li>Tennis</li>
     <li>Skiing</li>
-    <li>Travel</li>
   </ul>
   <p class="aside-note">An oddly specific skill: telling Jack White from Jack Black.</p>
 </section>
