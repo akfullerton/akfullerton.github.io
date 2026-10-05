@@ -3,3 +3,27 @@ modules = ["ruby-3.2"]
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "rm -rf /tmp/akf-replit-preview && bundle exec jekyll build --destination /tmp/akf-replit-preview && cp assets/css/style.css /tmp/akf-replit-preview/assets/css/style.css && bundle exec ruby -run -e httpd /tmp/akf-replit-preview -p 5000 -b 0.0.0.0"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
