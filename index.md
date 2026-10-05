@@ -22,7 +22,7 @@ permalink: /
 <section class="selected-work" aria-labelledby="selected-work-heading">
   <div class="section-top">
     <h2 class="eyebrow" id="selected-work-heading">Selected work</h2>
-    <p class="section-count">01—03</p>
+    <p class="section-count">01—02</p>
   </div>
   <ol class="work-index">
     <li class="work-row">
@@ -44,16 +44,6 @@ permalink: /
       <p class="work-summary">Growth strategy behind Spacey Jane’s #1 Australian album, 100M+ streams, and sold-out tours.</p>
       <p class="work-outcome">#1 album<br>100M+ streams</p>
       <a class="work-link" href="{{ '/experience/' | relative_url }}#monotone" aria-label="Read about Monotone work"><span aria-hidden="true">↗</span></a>
-    </li>
-    <li class="work-row">
-      <span class="work-number">03</span>
-      <div class="work-heading">
-        <h3>Automagent</h3>
-        <p class="work-category">AI + product</p>
-      </div>
-      <p class="work-summary">40+ customer conversations shaped the market, product, workflows, and pricing for an AI automation marketplace.</p>
-      <p class="work-outcome">40+ conversations</p>
-      <a class="work-link" href="{{ '/experience/' | relative_url }}#automagent" aria-label="Read about the Automagent product exploration"><span aria-hidden="true">↗</span></a>
     </li>
   </ol>
 </section>

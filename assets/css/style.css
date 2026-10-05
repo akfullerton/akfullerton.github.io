@@ -4,7 +4,9 @@
   --ink: #111111;
   --muted: #454545;
   --line: #b9b9b6;
-  --red: #c7212a;
+  --accent: #174a66;
+  --accent-soft: #edf3f6;
+  --accent-soft-hover: #e2edf2;
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --site-width: 1440px;
   --column-gap: clamp(0.8rem, 1.8vw, 1.6rem);
@@ -17,7 +19,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   scroll-padding-top: 1.25rem;
   background: var(--paper);
 }
@@ -34,7 +36,7 @@ body {
 }
 
 ::selection {
-  background: var(--red);
+  background: var(--accent);
   color: #ffffff;
 }
 
@@ -42,15 +44,16 @@ a {
   color: inherit;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.22em;
+  transition: color 180ms ease;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--accent);
 }
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid var(--red);
+  outline: 3px solid var(--accent);
   outline-offset: 4px;
 }
 
@@ -142,20 +145,22 @@ p {
   bottom: 0;
   left: 0;
   height: 1px;
-  background: var(--red);
+  background: var(--accent);
   content: "";
+  opacity: 0;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 150ms ease;
+  transition: transform 180ms ease, opacity 180ms ease;
 }
 
 .site-nav a:hover::after,
 .site-nav a[aria-current="page"]::after {
+  opacity: 1;
   transform: scaleX(1);
 }
 
 .external-mark {
-  color: var(--red);
+  color: var(--accent);
   font-size: 0.9em;
 }
 
@@ -185,7 +190,7 @@ p {
 
 .eyebrow,
 .section-index {
-  color: var(--red);
+  color: var(--accent);
 }
 
 .intro-block {
@@ -219,7 +224,7 @@ p {
 }
 
 .accent-text {
-  color: var(--red);
+  color: var(--accent);
 }
 
 .intro-copy {
@@ -239,8 +244,7 @@ p {
   margin-top: 1.6rem;
 }
 
-.text-link,
-.footer-inner a {
+.text-link {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -254,14 +258,16 @@ p {
   gap: 0.5rem;
   border-bottom: 1px solid var(--line);
   padding-bottom: 0.25rem;
+  transition: border-color 180ms ease, color 180ms ease;
 }
 
 .text-link span {
-  color: var(--red);
-  transition: transform 150ms ease;
+  color: var(--accent);
+  transition: transform 180ms ease, opacity 180ms ease;
 }
 
 .text-link:hover span {
+  opacity: 0.8;
   transform: translate(2px, -2px);
 }
 
@@ -296,11 +302,17 @@ p {
   column-gap: var(--column-gap);
   border-top: 1px solid var(--line);
   padding-block: 1.45rem;
+  transition: background-color 180ms ease;
+}
+
+.work-row:hover,
+.work-row:focus-within {
+  background: var(--accent-soft);
 }
 
 .work-number {
   grid-column: span 1;
-  color: var(--red);
+  color: var(--accent);
   font-size: 0.85rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
@@ -345,10 +357,21 @@ p {
 
 .work-link {
   grid-column: span 1;
-  color: var(--red);
+  color: var(--accent);
   font-size: 1rem;
   text-align: right;
   text-decoration: none;
+}
+
+.work-link span {
+  display: inline-block;
+  opacity: 0.72;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.work-link:hover span {
+  opacity: 1;
+  transform: translate(2px, -2px);
 }
 
 .page-hero {
@@ -379,6 +402,61 @@ p {
   margin: 1.6rem 0 0;
   color: var(--muted);
   font-size: clamp(1rem, 1.4vw, 1.2rem);
+}
+
+.work-hero {
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
+}
+
+.work-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 0 0 clamp(4rem, 6vw, 6rem);
+  padding: 0;
+  list-style: none;
+}
+
+.work-highlight {
+  display: flex;
+  min-height: 10rem;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--accent);
+  padding: 1.05rem 1rem 1rem;
+  background: var(--accent-soft);
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.work-highlight:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft-hover);
+}
+
+.work-highlight-value {
+  margin-bottom: 0.6rem;
+  color: var(--accent);
+  font-size: clamp(2rem, 3.4vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  line-height: 0.95;
+  font-variant-numeric: tabular-nums;
+}
+
+.work-highlight-label {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.work-highlight-detail {
+  margin: auto 0 0;
+  padding-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.64rem;
+  line-height: 1.35;
 }
 
 .about-story,
@@ -445,7 +523,7 @@ p {
 
 .interest-list li + li::before {
   margin-inline: 0.65em;
-  color: var(--red);
+  color: var(--accent);
   content: "/";
   font-size: 0.8em;
 }
@@ -481,7 +559,7 @@ p {
 
 .project-number {
   grid-column: span 1;
-  color: var(--red);
+  color: var(--accent);
   font-size: 1rem;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -544,12 +622,17 @@ p {
   padding: 0.8rem 0 0.8rem 1.25rem;
   font-size: 0.9rem;
   line-height: 1.45;
+  transition: background-color 180ms ease;
+}
+
+.impact-list li:hover {
+  background: var(--accent-soft);
 }
 
 .impact-list li::before {
   position: absolute;
   left: 0;
-  color: var(--red);
+  color: var(--accent);
   content: "—";
 }
 
@@ -586,7 +669,8 @@ p {
 
 .resume-heading h1 {
   display: block;
-  font-size: clamp(3.5rem, 6vw, 6.2rem);
+  font-size: clamp(2.8rem, 4.5vw, 4.8rem);
+  line-height: 1.02;
 }
 
 .resume-position {
@@ -655,6 +739,11 @@ p {
   padding-top: 0;
 }
 
+.resume-entry-featured {
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+}
+
 .resume-entry-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -692,7 +781,7 @@ p {
 }
 
 .resume-bullets li::marker {
-  color: var(--red);
+  color: var(--accent);
 }
 
 .resume-detail {
@@ -707,33 +796,51 @@ p {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1fr 2fr auto;
-  gap: 1.5rem;
-  align-items: baseline;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.75rem;
+  align-items: center;
   padding-block: 1.2rem 1.5rem;
-  font-size: 0.68rem;
 }
 
-.footer-credit,
-.footer-contact {
+.footer-credit {
   margin: 0;
-}
-
-.footer-contact {
   color: var(--muted);
-  text-align: center;
+  font-size: 0.64rem;
 }
 
-.footer-contact a,
-.footer-github {
+.footer-action {
+  display: inline-flex;
+  min-height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 1px solid var(--line);
+  padding: 0.55rem 0.75rem;
   color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--red);
-  text-underline-offset: 0.25em;
+  background: transparent;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
 }
 
-.footer-inner a span {
-  color: var(--red);
+.footer-action:hover {
+  border-color: var(--accent);
+  color: #ffffff;
+  background: var(--accent);
+}
+
+.footer-action span {
+  color: var(--accent);
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.footer-action:hover span {
+  color: #ffffff;
+  transform: translate(2px, -1px);
 }
 
 @media (max-width: 760px) {
@@ -878,12 +985,15 @@ p {
     margin-bottom: 3.5rem;
   }
 
+  .work-hero {
+    margin-bottom: 2rem;
+  }
+
   .page-hero .eyebrow {
     margin-bottom: 1.1rem;
   }
 
-  .page-hero h1,
-  .resume-heading h1 {
+  .page-hero h1 {
     font-size: clamp(3rem, 11vw, 4.5rem);
   }
 
@@ -920,6 +1030,25 @@ p {
 
   .project-list {
     gap: 3.5rem;
+  }
+
+  .work-highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .work-highlight {
+    min-height: 9rem;
+    padding: 0.9rem 0.8rem;
+  }
+
+  .work-highlight-value {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+  }
+
+  .work-highlight-detail {
+    font-size: 0.6rem;
   }
 
   .work-detail-head {
@@ -976,7 +1105,7 @@ p {
   }
 
   .resume-heading h1 {
-    font-size: clamp(2.8rem, 10vw, 4.2rem);
+    font-size: clamp(2.4rem, 8vw, 3.4rem);
   }
 
   .print-button {
@@ -1005,13 +1134,19 @@ p {
     row-gap: 0.6rem;
   }
 
-  .footer-contact {
-    grid-column: 1;
-    grid-row: 2;
-    text-align: left;
+  .footer-action {
+    min-height: 2.25rem;
+    padding: 0.5rem 0.55rem;
+    font-size: 0.6rem;
   }
 
-  .footer-github {
+  .footer-action-inquiries {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  .footer-action-github {
     grid-column: 2;
     grid-row: 1 / span 2;
     align-self: center;
@@ -1036,6 +1171,19 @@ p {
 
   .intro-heading {
     font-size: clamp(2.8rem, 11.1vw, 3.7rem);
+  }
+
+  .work-highlight {
+    padding-inline: 0.65rem;
+  }
+
+  .work-highlight-value {
+    font-size: clamp(1.6rem, 7.5vw, 2.1rem);
+  }
+
+  .footer-action {
+    padding-inline: 0.45rem;
+    font-size: 0.55rem;
   }
 }
 

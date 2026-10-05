@@ -1,14 +1,37 @@
 ---
 title: "Work"
-description: "Selected work by Andrew Khoi Fullerton across customer strategy, entertainment operations, and AI product exploration."
+description: "Long-form case studies by Andrew Khoi Fullerton across customer strategy, entertainment operations, and AI product exploration."
 permalink: /experience/
 ---
 
-<section class="page-hero" aria-labelledby="work-heading">
+<section class="page-hero work-hero" aria-labelledby="work-heading">
   <p class="eyebrow">Work / 02</p>
   <h1 id="work-heading">Customer strategy. Artist growth. Product discovery.</h1>
-  <p class="lede">A few projects across utilities, music, and AI—focused on decisions, delivery, and measurable results.</p>
+  <p class="lede">Long-form case studies across utilities, music, and AI—showing the decisions, operating work, and measurable outcomes behind each project.</p>
 </section>
+
+<ul class="work-highlights" aria-label="Selected outcomes">
+  <li class="work-highlight">
+    <span class="work-highlight-value">20+</span>
+    <span class="work-highlight-label">Customer tools mapped</span>
+    <span class="work-highlight-detail">Across 10+ PG&amp;E teams</span>
+  </li>
+  <li class="work-highlight">
+    <span class="work-highlight-value">100M+</span>
+    <span class="work-highlight-label">Streams</span>
+    <span class="work-highlight-detail">Spacey Jane · #1 Australian album</span>
+  </li>
+  <li class="work-highlight">
+    <span class="work-highlight-value">20%</span>
+    <span class="work-highlight-label">Tour profitability improvement</span>
+    <span class="work-highlight-detail">Across 10 new Australasian markets</span>
+  </li>
+  <li class="work-highlight">
+    <span class="work-highlight-value">$500K+</span>
+    <span class="work-highlight-label">Direct-to-consumer sales</span>
+    <span class="work-highlight-detail">Store built from scratch</span>
+  </li>
+</ul>
 
 <section class="project-list" aria-label="Selected work">
   <article class="work-detail" id="pg-and-e">
@@ -48,7 +71,8 @@ permalink: /experience/
         <li>Built the album strategy and label-funded activations behind Spacey Jane’s first #1 Australian album, 100M+ streams, and sold-out tours.</li>
         <li>Coordinated Jamie Foxx’s surprise music release for Netflix’s Day Shift across creative, distribution, and film marketing in five days.</li>
         <li>Modeled tour costs, demand, and routing to open 10 new Australasian markets, sell out shows, and improve tour profitability by 20%.</li>
-        <li>Built a direct-to-consumer store from scratch; sales exceeded $500K as merchandise grew to approximately $400K. Reworked event payment operations after a critical pre-show POS failure.</li>
+        <li>Built a direct-to-consumer store from scratch; sales exceeded $500K as merchandise grew to approximately $400K.</li>
+        <li>Reworked event payment operations after a critical pre-show point-of-sale failure.</li>
       </ul>
     </div>
   </article>

@@ -6,16 +6,16 @@ Build a publish-ready personal portfolio for **Andrew Khoi Fullerton** as a stat
 
 ## Pages and content
 
-- **Home** — direct strategy / product / operations positioning and a numbered index of three selected projects.
-- **Work** — concise PG&E, Monotone, and Automagent project summaries, with earlier entertainment roles listed briefly.
+- **Home** — direct strategy / product / operations positioning and a numbered index of two selected projects.
+- **Work** — long-form PG&E, Monotone, and Automagent case studies with selected outcome metrics and earlier entertainment roles.
 - **About** — the transition from music talent management to product and customer strategy, plus a short outside-work note.
-- **Resume** — a print-friendly summary of experience and education, without personal email or phone.
+- **Resume** — a compact, print-friendly chronology of experience and education, without personal email or phone; Monotone receives expanded emphasis.
 
 Keep statements and metrics grounded in the supplied résumé and redesign brief. Do not invent employers, outcomes, dates, or biography details.
 
 ## Visual direction
 
-Use a Swiss-influenced editorial system: Helvetica Neue / Helvetica / Arial, a 12-column grid, black and white with restrained red, bold scale, precise rules, square corners, and generous whitespace. Keep a single light theme. Use semantic HTML, visible focus states, reduced-motion support, and responsive behavior at 375px and 1280px.
+Use a Swiss-influenced editorial system: Helvetica Neue / Helvetica / Arial, a 12-column grid, black and white with deep blue accents, pale blue metric panels, bold scale, precise rules, square corners, and generous whitespace. Keep a single light theme. Use subtle interaction transitions without page-load animations, semantic HTML, visible focus states, reduced-motion support, and responsive behavior at 375px and 1280px.
 
 ## Jekyll structure
 

@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-description: "A concise, print-friendly resume for Andrew Khoi Fullerton."
+description: "A concise, print-friendly résumé for Andrew Khoi Fullerton."
 permalink: /resume/
 ---
 
@@ -32,7 +32,7 @@ permalink: /resume/
         </ul>
       </article>
 
-      <article class="resume-entry">
+      <article class="resume-entry resume-entry-featured">
         <div class="resume-entry-heading">
           <div>
             <h3>Monotone, Inc.</h3>
@@ -42,21 +42,10 @@ permalink: /resume/
         </div>
         <ul class="resume-bullets">
           <li>Built the strategy and label-funded activations behind Spacey Jane’s first #1 Australian album, 100M+ streams, and sold-out tours.</li>
-          <li>Modeled touring and opened 10 Australasian markets, improving tour profitability by 20%; built a direct-to-consumer store exceeding $500K in sales.</li>
-          <li>Coordinated Jamie Foxx’s surprise release for Netflix’s Day Shift in five days; grew merchandise to approximately $400K and repaired event payment operations.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-heading">
-          <div>
-            <h3>Automagent</h3>
-            <p class="resume-role">Product exploration · Haas Applied AI Program</p>
-          </div>
-          <p class="resume-date">Customer discovery<br>+ product definition</p>
-        </div>
-        <ul class="resume-bullets">
-          <li>Led 40+ customer conversations to define an AI automation marketplace’s target customer, MVP scope, pricing, and workflows.</li>
+          <li>Modeled tour costs, demand, and routing to open 10 new Australasian markets, sell out shows, and improve tour profitability by 20%.</li>
+          <li>Built a direct-to-consumer store from scratch; sales exceeded $500K as merchandise grew to approximately $400K.</li>
+          <li>Coordinated Jamie Foxx’s surprise music release for Netflix’s <em>Day Shift</em> across creative, distribution, and film marketing in five days.</li>
+          <li>Reworked event payment operations after a critical pre-show point-of-sale failure.</li>
         </ul>
       </article>
 
