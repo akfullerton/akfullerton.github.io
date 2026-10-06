@@ -23,41 +23,41 @@
   descriptor: "travel app benchmark"
   url: "https://flighty.com/"
 - number: "005"
-  category: PRODUCT
-  title: "Oura Ring"
-  meta: "Oura"
-  descriptor: "useful data, calm ritual"
-  url: "https://ouraring.com/product/rings"
-- number: "006"
   category: OBJECT
   title: "Tokuten"
   meta: "Onitsuka Tiger"
   descriptor: "better than Sambas"
   url: "https://www.onitsukatiger.com/gb/en-gb/shoes/view-all-shoes/tokuten/"
-- number: "007"
+- number: "006"
   category: OBJECT
   title: "John Mayer Stratocaster"
   meta: "Fender"
-  descriptor: "the one I really want"
+  descriptor: "the best guitar I've ever owned"
   url: "https://reverb.com/marketplace?query=Fender%20John%20Mayer%20Stratocaster"
-- number: "008"
+- number: "007"
   category: CLOTHING
   title: "GIM CONTEXT"
   meta: "Seoul"
   descriptor: "quiet, precise clothing"
   url: "https://gimcontext.com/en"
+- number: "008"
+  category: BAR
+  title: "Nightfly"
+  meta: "Tokyo"
+  descriptor: "my favorite listening bar"
+  url: "https://maps.app.goo.gl/CvtDMdL9uEchtCVV8"
 - number: "009"
-  category: PLACE
-  title: "Tokyo Konbini"
-  meta: "Japan"
-  descriptor: "density, utility, delight"
-  url: "https://www.family.co.jp/for_tourist/en.html"
+  category: RESTAURANT
+  title: "Katsudon-ya Zuicho"
+  meta: "Tokyo"
+  descriptor: "one of my favorite restaurants"
+  url: "https://maps.app.goo.gl/W4s3KEypjky1pZ4q7"
 - number: "010"
   category: FOOD
   title: "Bún chả"
   meta: "Hanoi"
   descriptor: "smoke, herbs, memory"
-  url: "https://www.youtube.com/watch?v=BBZHbcy_P4A"
+  url: "https://www.seriouseats.com/bun-cha-hanoi-recipe-8421208"
 - number: "011"
   category: HOTEL
   title: "Dusit Thani Kyoto"
@@ -71,11 +71,11 @@
   descriptor: "the walkable ideal"
   url: "https://parisjetaime.com/eng/transport/quartier-du-marais-p1929"
 - number: "013"
-  category: PARK
-  title: "Yosemite"
+  category: PLACE
+  title: "Sea Ranch"
   meta: "California"
-  descriptor: "granite, air, perspective"
-  url: "https://www.nps.gov/yose/index.htm"
+  descriptor: "my favorite stretch of CA coast"
+  url: "https://www.sonomacounty.com/cities/the-sea-ranch/"
 - number: "014"
   category: RESTAURANT
   title: "Rintaro"
