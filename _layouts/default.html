@@ -3,7 +3,7 @@
   <head>
     {% include head.html %}
   </head>
-  <body id="page-top">
+  <body id="page-top"{% if page.body_class %} class="{{ page.body_class | escape }}"{% endif %}>
     <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
     <main id="main-content" class="site-main">
