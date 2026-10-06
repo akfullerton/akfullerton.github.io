@@ -1,97 +1,93 @@
 ---
-title: "Work Experience"
-description: "Work experience for Andrew Khoi Fullerton across energy, entertainment, strategy, operations, and go-to-market execution."
+title: "Work"
+description: "Long-form case studies by Andrew Khoi Fullerton across customer strategy, entertainment operations, and AI product exploration."
 permalink: /experience/
 ---
 
-<section class="page-hero">
-  <p class="eyebrow">Work experience</p>
-  <h1>From the big picture to the thing that has to work on Tuesday.</h1>
-  <p class="lede">A selection of work across strategy, innovation, entertainment, market analysis, operations, and cross-functional execution.</p>
+<section class="page-hero work-hero" aria-labelledby="work-heading">
+  <p class="eyebrow">Work / 02</p>
+  <h1 id="work-heading">Customer strategy. Artist growth. Product discovery.</h1>
+  <p class="lede">Selected projects with the context, decisions, and operating work behind the outcomes.</p>
 </section>
 
-<section class="experience-list" aria-label="Professional experience">
-  <article class="experience-item" id="pg-and-e">
-    <div class="experience-header">
-      <div>
-        <p class="eyebrow">01 <span aria-hidden="true">/</span> Current chapter</p>
-        <h2>Pacific Gas and Electric (PG&amp;E)</h2>
-        <p class="role">MBA Intern, Strategy &amp; Innovation</p>
+<section class="project-list" aria-label="Selected work">
+  <article class="work-detail" id="pg-and-e">
+    <header class="work-detail-head">
+      <span class="project-number">01</span>
+      <div class="work-ident">
+        <p class="eyebrow">Customer + product strategy</p>
+        <h2>PG&amp;E</h2>
+        <p class="role">MBA Intern, Strategy &amp; Innovation; continued strategy / program work</p>
       </div>
-      <div class="experience-meta">
-        <p>Summer 2026</p>
-        <p>Oakland, CA</p>
+      <p class="work-meta">Summer 2026—present<br>Oakland, CA</p>
+    </header>
+    <div class="work-detail-content">
+      <p class="experience-context">PG&amp;E serves 16 million people and 5.5 million electric accounts across Northern and Central California. Its customer electrification tools were spread across more than 10 teams. I mapped that landscape to show where capabilities overlapped and where customers could get conflicting answers.</p>
+      <div class="work-stat" role="group" aria-label="Selected outcome">
+        <strong class="work-stat-value">20+</strong>
+        <span class="work-stat-copy">customer electrification tools mapped across 10+ teams</span>
       </div>
-    </div>
-    <p class="experience-context">California’s largest energy utility, serving 16M people and 5.5M electric accounts across Northern and Central California.</p>
-    <ul class="impact-list">
-      <li>Diagnosed a portfolio of 20+ customer-facing electrification tools across 10+ teams, mapping ownership, journey stage, and calculation assumptions to surface duplicated capabilities and conflicting answers.</li>
-      <li>Built the evaluation framework guiding portfolio consolidation, defining future-state options, scoring criteria, and phase gates that enabled a 12-week Tiger Team to decide whether to build, expand, or integrate tools.</li>
-      <li>Designed an AI-enabled pipeline to replace manual review of 37,790 survey responses and 6,658 open-ended comments, restructuring tagging logic and ownership so feedback resolves into action with named owners.</li>
-      <li>Developed the case for customer service process improvement, analyzing 8 usability studies covering 1,100+ participants and testing live support pathways end to end; isolated 5 systemic failures spanning cost clarity, terminology, and conflicting information.</li>
-    </ul>
-  </article>
-
-  <article class="experience-item" id="monotone">
-    <div class="experience-header">
-      <div>
-        <p class="eyebrow">02 <span aria-hidden="true">/</span> Previous chapter</p>
-        <h2>Monotone, Inc.</h2>
-        <p class="role">Manager (2022–2025) <span aria-hidden="true">·</span> Executive &amp; Management Assistant (2021–2022)</p>
-      </div>
-      <div class="experience-meta">
-        <p>2021–2025</p>
-        <p>Los Angeles, CA</p>
-      </div>
-    </div>
-    <p class="experience-context">A talent management company working with high-profile artists and actors across labels, agencies, promoters, platforms, vendors, and other partners.</p>
-
-    <div class="experience-subsection">
-      <h3>Strategic planning &amp; go-to-market execution</h3>
+      <p class="experience-context">The map gave a 12-week consolidation effort a clearer starting point: options, scoring criteria, and phase gates. I also used customer research to connect large volumes of feedback to specific issues and owners.</p>
       <ul class="impact-list">
-        <li>Defined the strategic framework and success KPIs for a flagship album release, diagnosing fan engagement gaps via social and ad performance analysis and building the business case that moved label partners to fund physical activations; led cross-functional execution, driving the client’s first #1 album in Australia and 100M+ streams.</li>
-        <li>Led Jamie Foxx’s surprise music release for Netflix’s <em>Day Shift</em> on a tight 5-day timeline, coordinating creative, distribution, and film marketing teams under high ambiguity, contributing to a #1 global Netflix title.</li>
-      </ul>
-    </div>
-
-    <div class="experience-subsection">
-      <h3>Data-driven analysis &amp; market strategy</h3>
-      <ul class="impact-list">
-        <li>Built a risk-adjusted touring strategy by modeling costs, demand, and revenue scenarios across markets, venue sizes, and routing tradeoffs to identify where the client could tour profitably, driving expansion into 10 new Australasian markets with sold-out shows and improving tour profitability by 20%.</li>
-        <li>Grew revenue by launching a new direct-to-consumer webstore, evaluating customer segmentation, product strategy, and vendor/storefront infrastructure across multiple markets; stood up the business model from scratch and expanded monetization beyond touring and streaming, scaling to $500K+ in revenue.</li>
-      </ul>
-    </div>
-
-    <div class="experience-subsection">
-      <h3>Operations management &amp; cross-functional coordination</h3>
-      <ul class="impact-list">
-        <li>Created business cases, financing plans, and budget models to drive client growth in 5 new territories; led location and routing optimization with strategic partners to expand presence in underserved EU/UK markets, increasing touring offers, ticket sales, and streaming growth.</li>
-        <li>Overhauled event payment operations after identifying a critical system failure pre-event, evaluating vendors and deploying an alternative POS solution, then standardizing the process to prevent revenue loss.</li>
+        <li>Surfaced duplicated capabilities and conflicting customer guidance across the mapped tool landscape.</li>
+        <li>Built the options, scoring criteria, and phase gates for a 12-week tool-consolidation team.</li>
+        <li>Designed an AI-assisted review pipeline for 37,790 survey responses and 6,658 comments, connecting feedback to named owners.</li>
+        <li>Reviewed 8 usability studies with 1,100+ participants; identified five failures in cost clarity, terminology, and support paths.</li>
       </ul>
     </div>
   </article>
 
-  <article class="experience-item experience-item-last">
-    <div class="experience-header">
-      <div>
-        <p class="eyebrow">03 <span aria-hidden="true">/</span> Earlier work</p>
-        <h2>Entertainment internships</h2>
-        <p class="role">2018–2021</p>
+  <article class="work-detail" id="monotone">
+    <header class="work-detail-head">
+      <span class="project-number">02</span>
+      <div class="work-ident">
+        <p class="eyebrow">Entertainment + operations</p>
+        <h2>Monotone</h2>
+        <p class="role">Manager, 2022–2025 · Executive &amp; Management Assistant, 2021–2022</p>
       </div>
+      <p class="work-meta">2021—2025<br>Los Angeles, CA</p>
+    </header>
+    <div class="work-detail-content">
+      <p class="experience-context">Across four years in talent management, my work moved between artist strategy and execution: campaigns, releases, touring, commerce, and live events. I coordinated with artists, labels, agents, publishers, marketers, publicists, vendors, and partners to take plans from discussion into delivery.</p>
+      <div class="work-stat" role="group" aria-label="Selected outcome">
+        <strong class="work-stat-value">100M+</strong>
+        <span class="work-stat-copy">streams for Spacey Jane, alongside the band’s first #1 Australian album</span>
+      </div>
+      <ul class="impact-list">
+        <li>Built the album strategy and coordinated label-funded activations behind Spacey Jane’s first #1 Australian album and sold-out tours.</li>
+        <li>Coordinated Jamie Foxx’s surprise music release for Netflix’s Day Shift across creative, distribution, and film marketing in five days.</li>
+        <li>Modeled tour costs, demand, and routing to open 10 new Australasian markets, sell out shows, and improve tour profitability by 20%.</li>
+        <li>Built a direct-to-consumer store from scratch; sales exceeded $500K as merchandise grew to approximately $400K.</li>
+        <li>Reworked event payment operations after a critical pre-show point-of-sale failure.</li>
+      </ul>
     </div>
-    <p class="experience-context">Prior experience across the music business, including A&amp;R, publishing, public relations, and digital marketing.</p>
-    <div class="tag-list" aria-label="Previous companies and functions">
-      <span class="tag">Warner Music Group / A&amp;R</span>
-      <span class="tag">Atlantic Records / A&amp;R</span>
-      <span class="tag">Unknown Music Publishing</span>
-      <span class="tag">300 Entertainment / PR</span>
-      <span class="tag">WMA / Digital marketing</span>
+  </article>
+
+  <article class="work-detail" id="automagent">
+    <header class="work-detail-head">
+      <span class="project-number">03</span>
+      <div class="work-ident">
+        <p class="eyebrow">AI + product</p>
+        <h2>Automagent</h2>
+        <p class="role">Product exploration · Haas Applied AI Program</p>
+      </div>
+      <p class="work-meta">Customer discovery<br>+ product definition</p>
+    </header>
+    <div class="work-detail-content">
+      <p class="experience-context">Automagent explored an AI automation marketplace for small and midsize businesses. I tested the concept against real workflow pain and willingness to pay, then translated what customers said into a more concrete first product definition.</p>
+      <div class="work-stat" role="group" aria-label="Selected outcome">
+        <strong class="work-stat-value">40+</strong>
+        <span class="work-stat-copy">customer conversations informing the product direction</span>
+      </div>
+      <ul class="impact-list">
+        <li>Prioritized recurring workflow pain and the customer segment most likely to pay for relief.</li>
+        <li>Defined MVP scope, pricing, and operator workflows, then tested the direction with prototypes.</li>
+      </ul>
     </div>
   </article>
 </section>
 
-<section class="closing-cta" aria-labelledby="experience-cta-heading">
-  <p class="eyebrow">Keep going</p>
-  <h2 id="experience-cta-heading">The next interesting problem may be yours.</h2>
-  <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
+<section class="prior-work" aria-labelledby="prior-work-heading">
+  <p class="section-index" id="prior-work-heading">Earlier work / 2018—2021</p>
+  <p>Entertainment internships across A&amp;R at Warner Music Group and Atlantic Records; publishing at Unknown Music Publishing; PR at 300 Entertainment; and digital marketing at WMA.</p>
 </section>

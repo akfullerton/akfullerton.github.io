@@ -1,18 +1,15 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Andrew Khoi Fullerton home">
-      <span class="wordmark-mark" aria-hidden="true">AKF</span>
-      <span class="wordmark-name">Andrew<br>Fullerton</span>
+      <span class="wordmark-full">Andrew Khoi Fullerton</span>
+      <span class="wordmark-short" aria-hidden="true">AKF</span>
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
-      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
       <a href="{{ '/experience/' | relative_url }}"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Work</a>
-      <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/resume/' | relative_url }}"{% if page.url == '/resume/' %} aria-current="page"{% endif %}>Resume</a>
+      <a href="https://www.linkedin.com/in/andrewkfullerton/" target="_blank" rel="noopener noreferrer">LinkedIn <span class="external-mark" aria-hidden="true">↗</span></a>
+      <a href="{{ '/index/' | relative_url }}"{% if page.url == '/index/' %} aria-current="page"{% endif %}>Index</a>
     </nav>
-    <button class="theme-toggle" type="button" aria-label="Switch to dark theme" data-theme-toggle>
-      <span class="theme-icon theme-icon-sun" aria-hidden="true">☼</span>
-      <span class="theme-icon theme-icon-moon" aria-hidden="true">◐</span>
-    </button>
   </div>
 </header>
