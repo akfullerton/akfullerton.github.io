@@ -29,18 +29,18 @@ permalink: /
         <h3>PG&amp;E</h3>
         <p class="work-category">Customer + product strategy</p>
       </div>
-      <p class="work-summary">Mapped 20+ electrification tools across 10+ teams to shape a simpler customer journey.</p>
-      <p class="work-outcome">20+ tools<br>10+ teams</p>
       <a class="work-link" href="{{ '/experience/' | relative_url }}#pg-and-e" aria-label="Read about PG&amp;E work"><span aria-hidden="true">↗</span></a>
+      <p class="work-summary"><span class="work-label">Contribution</span>Mapped 20+ electrification tools across 10+ teams, then built the scoring criteria and phase gates for a 12-week consolidation effort.</p>
+      <p class="work-outcome"><span class="work-label">Outcome</span>Surfaced duplicated capabilities and conflicting customer guidance, giving the team a clearer path to simplify the customer journey.</p>
     </li>
     <li class="work-row">
       <div class="work-heading">
         <h3>Monotone</h3>
         <p class="work-category">Entertainment + operations</p>
       </div>
-      <p class="work-summary">Growth strategy behind Spacey Jane’s #1 Australian album, 100M+ streams, and sold-out tours.</p>
-      <p class="work-outcome">#1 album<br>100M+ streams</p>
       <a class="work-link" href="{{ '/experience/' | relative_url }}#monotone" aria-label="Read about Monotone work"><span aria-hidden="true">↗</span></a>
+      <p class="work-summary"><span class="work-label">Contribution</span>Built Spacey Jane’s album strategy, secured label-funded activations, and coordinated the cross-functional release.</p>
+      <p class="work-outcome"><span class="work-label">Outcome</span>Drove the band’s first #1 Australian album, more than 100M streams, and sold-out tours.</p>
     </li>
   </ul>
 </section>
