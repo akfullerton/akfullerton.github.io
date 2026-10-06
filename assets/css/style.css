@@ -211,6 +211,219 @@ p {
   gap: clamp(3rem, 5vw, 5rem);
 }
 
+body.index-theme {
+  --paper: #0b0b0b;
+  --ink: #f4f4f2;
+  --muted: #858585;
+  --line: #292929;
+  --accent: #ff3b30;
+  --accent-soft: #171312;
+  --accent-soft-hover: #211715;
+
+  min-height: 100vh;
+}
+
+.index-theme .site-header,
+.index-theme .site-footer {
+  border-color: var(--line);
+}
+
+.index-theme .header-inner,
+.index-theme .footer-inner {
+  width: min(100% - clamp(4rem, 8vw, 9rem), var(--site-width));
+}
+
+.index-theme .site-main {
+  width: min(100% - clamp(4rem, 8vw, 9rem), var(--site-width));
+  padding-block: clamp(2rem, 4vw, 3.5rem) 3rem;
+}
+
+.index-theme .site-nav a[aria-current="page"] {
+  color: var(--accent);
+}
+
+.index-page {
+  width: 100%;
+}
+
+.index-hero {
+  display: flex;
+  min-height: clamp(15rem, 31vh, 21rem);
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 0.6rem clamp(2rem, 4vw, 3rem);
+}
+
+.index-hero-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.index-hero h1 {
+  margin: 0;
+  font-size: clamp(4.5rem, 7vw, 6.25rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.88;
+}
+
+.index-range,
+.index-kicker {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.index-range {
+  padding-bottom: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.index-kicker {
+  color: var(--accent);
+}
+
+.index-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.index-item {
+  border-top: 1px solid var(--line);
+  transition: border-color 180ms ease-out;
+}
+
+.index-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.index-item:hover,
+.index-item:focus-within {
+  border-color: #4a4a4a;
+}
+
+.index-row {
+  display: grid;
+  grid-template-areas: "number category title descriptor arrow";
+  grid-template-columns: 2.5rem minmax(7rem, 1.35fr) minmax(0, 5fr) minmax(11rem, 2.2fr) 1rem;
+  align-items: center;
+  column-gap: clamp(0.75rem, 1.4vw, 1.25rem);
+  min-height: 5.25rem;
+  padding-block: clamp(1.25rem, 2.25vw, 2rem);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.index-row:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.index-number {
+  grid-area: number;
+  align-self: start;
+  padding-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-variant-numeric: tabular-nums;
+  transition: color 180ms ease-out;
+}
+
+.index-category {
+  grid-area: category;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  transition: color 180ms ease-out;
+}
+
+.index-title {
+  grid-area: title;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.index-title-main {
+  display: inline-block;
+  overflow-wrap: anywhere;
+  font-size: clamp(1.15rem, 1.7vw, 1.35rem);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  transition: transform 180ms ease-out, color 180ms ease-out;
+}
+
+.index-meta {
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.index-descriptor {
+  grid-area: descriptor;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateX(4px);
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+.index-arrow {
+  grid-area: arrow;
+  justify-self: end;
+  color: var(--accent);
+  opacity: 0;
+  transform: translateX(-3px);
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+.index-row:hover .index-number,
+.index-row:hover .index-category,
+.index-row:focus-visible .index-number,
+.index-row:focus-visible .index-category {
+  color: #b4b4b4;
+}
+
+.index-row:hover .index-title-main,
+.index-row:focus-visible .index-title-main {
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+.index-row:hover .index-descriptor,
+.index-row:focus-visible .index-descriptor,
+.index-row:hover .index-arrow,
+.index-row:focus-visible .index-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.index-page-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
 .eyebrow,
 .section-index,
 .section-count,
@@ -847,6 +1060,82 @@ p {
     letter-spacing: 0.035em;
   }
 
+  .index-theme .header-inner,
+  .index-theme .footer-inner,
+  .index-theme .site-main {
+    width: calc(100% - 2.5rem);
+  }
+
+  .index-theme .site-main {
+    padding-block: 2rem 3rem;
+  }
+
+  .index-theme .site-nav {
+    gap: clamp(0.38rem, 1.3vw, 0.6rem);
+    font-size: 0.59rem;
+    letter-spacing: 0.03em;
+  }
+
+  .index-hero {
+    min-height: clamp(12rem, 27vh, 15rem);
+    padding-block: 0.25rem 1.75rem;
+  }
+
+  .index-hero h1 {
+    font-size: clamp(4rem, 18vw, 5rem);
+  }
+
+  .index-row {
+    grid-template-areas:
+      "number category arrow"
+      "number title title"
+      "number descriptor descriptor";
+    grid-template-columns: 2.4rem minmax(0, 1fr) 1rem;
+    align-items: start;
+    column-gap: 0.7rem;
+    row-gap: 0.35rem;
+    min-height: 0;
+    padding-block: 1.1rem;
+  }
+
+  .index-number {
+    padding-top: 0.1rem;
+  }
+
+  .index-category {
+    font-size: 0.63rem;
+  }
+
+  .index-title {
+    gap: 0.12rem;
+  }
+
+  .index-title-main {
+    font-size: clamp(1.06rem, 4.7vw, 1.2rem);
+  }
+
+  .index-meta {
+    font-size: 0.68rem;
+  }
+
+  .index-descriptor,
+  .index-arrow {
+    opacity: 1;
+    transform: none;
+  }
+
+  .index-descriptor {
+    font-size: 0.8rem;
+  }
+
+  .index-arrow {
+    font-size: 0.9rem;
+  }
+
+  .index-page-footer {
+    font-size: 0.55rem;
+  }
+
   .site-main {
     padding-block: 3.5rem 5rem;
   }
@@ -1112,10 +1401,21 @@ p {
 }
 
 @media (max-width: 390px) {
+  .index-theme .site-nav {
+    gap: 0.35rem;
+    font-size: 0.55rem;
+  }
+
   .header-inner,
   .footer-inner,
   .site-main {
     width: calc(100% - 1.5rem);
+  }
+
+  .index-theme .header-inner,
+  .index-theme .footer-inner,
+  .index-theme .site-main {
+    width: calc(100% - 2.5rem);
   }
 
   .site-nav {
