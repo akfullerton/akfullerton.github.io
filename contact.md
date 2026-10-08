@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <section class="page-hero" aria-labelledby="contact-heading">
-  <p class="eyebrow">Contact / 05</p>
+  <p class="eyebrow">Contact / 04</p>
   <h1 id="contact-heading">Let's talk.</h1>
 </section>
 

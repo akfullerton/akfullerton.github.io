@@ -176,6 +176,10 @@ p {
   text-decoration: none;
 }
 
+.site-nav a.nav-index {
+  color: var(--accent);
+}
+
 .site-nav a::after {
   position: absolute;
   right: 0;
