@@ -8,11 +8,11 @@ permalink: /
 <section class="intro-block" aria-labelledby="intro-heading">
   <p class="eyebrow">Andrew Khoi Fullerton <span class="meta-separator" aria-hidden="true">/</span> Strategy / Product / Operations</p>
   <h1 class="intro-heading" id="intro-heading">
-    <span>I make complicated</span>
-    <span>businesses <span class="accent-text">easier to use</span></span>
-    <span>and easier to run.</span>
+    <span>I bring the</span>
+    <span><span class="accent-text">moving parts</span></span>
+    <span>together.</span>
   </h1>
-  <p class="intro-copy">Berkeley Haas MBA with experience across entertainment, technology, and customer strategy. Before business school, four years in music talent management.</p>
+  <p class="intro-copy">I’ve spent my career getting people, plans, and ideas to work as one, first in artist management and live entertainment, now in business and customer experience strategy.</p>
   <div class="hero-links">
     <a class="text-link" href="{{ '/experience/' | relative_url }}">See selected work <span aria-hidden="true">↘</span></a>
     <a class="text-link" href="{{ '/about/' | relative_url }}">About Andrew <span aria-hidden="true">↗</span></a>

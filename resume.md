@@ -6,7 +6,7 @@ permalink: /resume/
 
 <article class="resume-page" aria-labelledby="resume-heading">
   <header class="page-hero resume-hero" aria-labelledby="resume-heading">
-    <p class="eyebrow">Resume / 04</p>
+    <p class="eyebrow">Resume / 03</p>
     <h1 id="resume-heading">Andrew Khoi Fullerton</h1>
     <div class="resume-contact" aria-label="Professional profile">
       <a href="https://www.linkedin.com/in/andrewkfullerton/">linkedin.com/in/andrewkfullerton/</a>
