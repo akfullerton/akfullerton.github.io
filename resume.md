@@ -8,11 +8,7 @@ permalink: /resume/
   <header class="page-hero resume-hero" aria-labelledby="resume-heading">
     <p class="eyebrow">Resume / 04</p>
     <h1 id="resume-heading">Andrew Khoi Fullerton</h1>
-    <div class="resume-contact" aria-label="Contact and professional profile">
-      <a href="tel:+17034315441">(703)-431-5441</a>
-      <span aria-hidden="true">•</span>
-      <a href="mailto:andrewfullerton@berkeley.edu">andrewfullerton@berkeley.edu</a>
-      <span aria-hidden="true">•</span>
+    <div class="resume-contact" aria-label="Professional profile">
       <a href="https://www.linkedin.com/in/andrewkfullerton/">linkedin.com/in/andrewkfullerton/</a>
     </div>
   </header>
